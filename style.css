@@ -1,3 +1,87 @@
-body {
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    height: 800px;
+}
+
+#content {
+    padding: 100px 70px 100px 70px;
+}
+
+#intro {
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
     background: grey;
+    padding: 10px;
+    padding-right: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+#nav-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0 20px;
+}
+
+#nav-list li {
+    margin: 0 15px;
+}
+
+.flex-layout {
+    display: flex;
+    padding: 80px 150px;
+}
+
+.flex-right {
+    padding: 20px;
+}
+
+.flex-layout .icon {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-item {
+    box-shadow: 5px 5px 20px;
+    margin: 15px;
+}
+
+#skills {
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+}
+
+.skill-item {
+    padding: 15px;
+}
+
+.progress {
+    border-radius: 20px !important;
+    height: 10px !important;
 }
