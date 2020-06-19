@@ -85,3 +85,7 @@ html {
     border-radius: 20px !important;
     height: 10px !important;
 }
+
+.section:nth-child(even) {
+    background-color: grey;
+}
